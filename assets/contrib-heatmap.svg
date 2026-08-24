@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="210" viewBox="0 0 920 210" role="img" aria-label="GitHub contribution graph syncing">
+<style>.bg{fill:#fff}.border{fill:none;stroke:#d0d7de}.fg{fill:#24292f}.muted{fill:#57606a}.pulse{fill:#24292f}@media(prefers-color-scheme:dark){.bg{fill:#0d1117}.border{stroke:#30363d}.fg{fill:#c9d1d9}.muted{fill:#8b949e}.pulse{fill:#f0f6fc}}text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}</style>
+<rect class="bg" x="1" y="1" width="918" height="208" rx="12"/><rect class="border" x="1" y="1" width="918" height="208" rx="12"/>
+<text x="20" y="31" class="fg" font-size="13" font-weight="700">contributions://m-zia-rasa</text>
+<text x="20" y="55" class="muted" font-size="11">syncing public GitHub activity — the included Action replaces this automatically</text>
+<g transform="translate(20 92)"><rect class="border" x="0" y="0" width="880" height="18" rx="9"/><rect class="pulse" x="2" y="2" width="120" height="14" rx="7"><animate attributeName="x" values="2;758;2" dur="2.6s" repeatCount="indefinite"/></rect></g>
+<text x="20" y="151" class="muted" font-size="10">no token • no paid service • self-hosted SVG • daily refresh</text>
+<text x="20" y="181" class="fg" font-size="11">$ profile sync <tspan>█<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+</svg>
