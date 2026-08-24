@@ -43,6 +43,13 @@ def download_avatar(url: str) -> bytes:
     return encoded.tobytes()
 
 
+def normalize_bio(value: str | None) -> str:
+    if not value:
+        return ""
+    lines = [" ".join(line.split()) for line in value.splitlines() if line.strip()]
+    return " · ".join(lines)
+
+
 def main() -> int:
     profile = json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
     username = profile["username"]
@@ -67,7 +74,7 @@ def main() -> int:
             changed = True
 
     if sync.get("bio", True):
-        bio = (public.get("bio") or "").strip()
+        bio = normalize_bio(public.get("bio"))
         if profile.get("github_bio", "") != bio:
             profile["github_bio"] = bio
             changed = True
