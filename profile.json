@@ -9,13 +9,34 @@
     "avatar": true
   },
   "rows": [
-    ["role", "Software & AI Engineer"],
-    ["focus", "AI / NLP / LLM applications"],
-    ["code", "Python / C / C++ / JavaScript"],
-    ["web", "HTML / CSS / JavaScript"],
-    ["mobile", "React Native"],
-    ["ml", "Hugging Face / Llama / notebooks"],
-    ["mode", "learn -> build -> ship -> iterate"]
+    [
+      "role",
+      "Software & AI Engineer"
+    ],
+    [
+      "focus",
+      "AI / NLP / LLM applications"
+    ],
+    [
+      "code",
+      "Python / C / C++ / JavaScript"
+    ],
+    [
+      "web",
+      "HTML / CSS / JavaScript"
+    ],
+    [
+      "mobile",
+      "React Native"
+    ],
+    [
+      "ml",
+      "Hugging Face / Llama / notebooks"
+    ],
+    [
+      "mode",
+      "learn -> build -> ship -> iterate"
+    ]
   ],
   "links": {
     "github": "https://github.com/m-zia-rasa",
@@ -23,9 +44,27 @@
     "x": "https://twitter.com/m_zia_rasa"
   },
   "featured": [
-    {"name": "CodePathAcademy", "url": "https://github.com/m-zia-rasa/CodePathAcademy", "description": "A software project with a live web deployment."},
-    {"name": "NLP-Llama3-Using-llama3-locally", "url": "https://github.com/m-zia-rasa/NLP-Llama3-Using-llama3-locally", "description": "Local Llama 3 inference with llama-cpp-python."},
-    {"name": "NLP-Hugging_face-Pipelines", "url": "https://github.com/m-zia-rasa/NLP-Hugging_face-Pipelines", "description": "Hugging Face pipelines for common NLP tasks."},
-    {"name": "Potato_Disease_Detection", "url": "https://github.com/m-zia-rasa/Potato_Disease_Detection", "description": "A model for potato disease detection."}
-  ]
+    {
+      "name": "CodePathAcademy",
+      "url": "https://github.com/m-zia-rasa/CodePathAcademy",
+      "description": "A software project with a live web deployment."
+    },
+    {
+      "name": "NLP-Llama3-Using-llama3-locally",
+      "url": "https://github.com/m-zia-rasa/NLP-Llama3-Using-llama3-locally",
+      "description": "Local Llama 3 inference with llama-cpp-python."
+    },
+    {
+      "name": "NLP-Hugging_face-Pipelines",
+      "url": "https://github.com/m-zia-rasa/NLP-Hugging_face-Pipelines",
+      "description": "Hugging Face pipelines for common NLP tasks."
+    },
+    {
+      "name": "Potato_Disease_Detection",
+      "url": "https://github.com/m-zia-rasa/Potato_Disease_Detection",
+      "description": "A model for potato disease detection."
+    }
+  ],
+  "github_bio": "Master of Computer Scsience.\r\nSoftware Engineer & Developer\r\nHTML, CSS, JavaScript & React Native",
+  "github_avatar_url": "https://avatars.githubusercontent.com/u/64533286?v=4"
 }
