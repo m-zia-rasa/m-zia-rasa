@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510" height="500" viewBox="0 0 510 500" role="img" aria-label="Neofetch-style profile information">
+<style>
+.bg{fill:#fff}.border{fill:none;stroke:#d0d7de}.fg{fill:#24292f}.muted{fill:#57606a}.accent{fill:#24292f}.rule{stroke:#d8dee4}
+@media(prefers-color-scheme:dark){.bg{fill:#0d1117}.border{stroke:#30363d}.fg{fill:#c9d1d9}.muted{fill:#8b949e}.accent{fill:#f0f6fc}.rule{stroke:#30363d}}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+</style>
+<rect class="bg" x="1" y="1" rx="12" width="508" height="498"/><rect class="border" x="1" y="1" rx="12" width="508" height="498"/><circle cx="18" cy="18" r="4" class="muted" opacity=".65"/><circle cx="32" cy="18" r="4" class="muted" opacity=".45"/><circle cx="46" cy="18" r="4" class="muted" opacity=".3"/>
+<text x="64" y="22" class="muted" font-size="10">m-zia-rasa@github</text>
+<text x="22" y="58" class="accent" font-size="15" font-weight="700">m-zia-rasa@github</text>
+<line x1="22" y1="69" x2="488" y2="69" class="rule"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.25s" dur=".3s" fill="freeze"/><text x="22" y="98" class="accent" font-size="12">role</text><text x="105" y="98" class="fg" font-size="12">Software &amp; AI Engineer</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.43s" dur=".3s" fill="freeze"/><text x="22" y="132" class="accent" font-size="12">focus</text><text x="105" y="132" class="fg" font-size="12">AI / NLP / LLM applications</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.61s" dur=".3s" fill="freeze"/><text x="22" y="166" class="accent" font-size="12">code</text><text x="105" y="166" class="fg" font-size="12">Python / C / C++ / JavaScript</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.79s" dur=".3s" fill="freeze"/><text x="22" y="200" class="accent" font-size="12">web</text><text x="105" y="200" class="fg" font-size="12">HTML / CSS / JavaScript</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.97s" dur=".3s" fill="freeze"/><text x="22" y="234" class="accent" font-size="12">mobile</text><text x="105" y="234" class="fg" font-size="12">React Native</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur=".3s" fill="freeze"/><text x="22" y="268" class="accent" font-size="12">ml</text><text x="105" y="268" class="fg" font-size="12">Hugging Face / Llama / notebooks</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.33s" dur=".3s" fill="freeze"/><text x="22" y="302" class="accent" font-size="12">mode</text><text x="105" y="302" class="fg" font-size="12">learn -&gt; build -&gt; ship -&gt; iterate</text></g>
+<line x1="22" y1="324" x2="488" y2="324" class="rule"/>
+<text x="22" y="354" class="muted" font-size="11">featured:// public work</text>
+<text x="22" y="384" class="fg" font-size="11">• CodePathAcademy</text>
+<text x="22" y="409" class="fg" font-size="11">• NLP-Llama3-Using-llama3-locally</text>
+<text x="22" y="434" class="fg" font-size="11">• NLP-Hugging_face-Pipelines</text>
+<text x="22" y="459" class="fg" font-size="11">• Potato_Disease_Detection</text>
+<text x="22" y="475" class="fg" font-size="11">$ status: building <tspan>█<animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/></tspan></text>
+</svg>
