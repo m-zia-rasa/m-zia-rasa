@@ -1,49 +1,73 @@
-name: Update profile artwork
+name: Sync GitHub profile
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
   push:
     branches: [main]
     paths:
       - "profile.json"
       - "scripts/**"
       - ".github/workflows/update-profile.yml"
-  schedule:
-    - cron: "17 2 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-art
+  group: github-profile-sync
   cancel-in-progress: true
 
 jobs:
-  refresh:
+  sync:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: scripts/requirements.txt
+
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
-      - name: Fetch public contribution data
+
+      - name: Sync public GitHub metadata and avatar
+        continue-on-error: true
+        run: python scripts/sync_github_profile.py
+
+      - name: Render profile cards
+        run: |
+          python scripts/render_profile.py
+          python scripts/render_ascii.py
+
+      - name: Refresh contribution data
+        id: contributions
+        continue-on-error: true
         env:
           GH_PROFILE_USER: m-zia-rasa
         run: python scripts/fetch_contributions.py
-      - name: Render contribution SVG
+
+      - name: Render contribution graph
+        if: steps.contributions.outcome == 'success'
         run: python scripts/render_contributions.py
-      - name: Commit refreshed artwork
+
+      - name: Commit refreshed profile
         run: |
-          if git diff --quiet -- data/contributions.json assets/contrib-heatmap.svg; then
-            echo "No contribution changes."
+          git add profile.json assets/ data/ || true
+          if git diff --cached --quiet; then
+            echo "Profile is already up to date."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json assets/contrib-heatmap.svg
-          git commit -m "chore: refresh contribution graph"
-          git push
+          git commit -m "chore: sync GitHub profile"
+          git pull --rebase origin main
+          git push origin HEAD:main
