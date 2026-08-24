@@ -3,6 +3,11 @@
   "name": "M. Zia Rasa",
   "role": "Software & AI Engineer",
   "tagline": "Building practical software at the intersection of AI, NLP, and product engineering.",
+  "github_sync": {
+    "name": true,
+    "bio": true,
+    "avatar": true
+  },
   "rows": [
     ["role", "Software & AI Engineer"],
     ["focus", "AI / NLP / LLM applications"],
