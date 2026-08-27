@@ -8,7 +8,7 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <rect class="bg" x="1" y="1" width="918" height="228" rx="12"/>
 <rect class="border" x="1" y="1" width="918" height="228" rx="12"/>
 <text x="20" y="28" class="fg" font-size="13" font-weight="700">contributions://m-zia-rasa</text>
-<text x="20" y="47" class="muted" font-size="10">total 374 • active 28d • current streak 11d • longest 11d</text>
+<text x="20" y="47" class="muted" font-size="10">total 581 • active 29d • current streak 12d • longest 12d</text>
 <text x="63" y="62" class="muted" font-size="9">Aug</text>
 <text x="93" y="62" class="muted" font-size="9">Sep</text>
 <text x="153" y="62" class="muted" font-size="9">Oct</text>
@@ -294,7 +294,7 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <rect class="l0" x="633" y="70" width="11" height="11" rx="2"/>
 <rect class="l0" x="633" y="85" width="11" height="11" rx="2"/>
 <rect class="l1" x="633" y="100" width="11" height="11" rx="2"/>
-<rect class="l2" x="633" y="115" width="11" height="11" rx="2"/>
+<rect class="l1" x="633" y="115" width="11" height="11" rx="2"/>
 <rect class="l0" x="633" y="130" width="11" height="11" rx="2"/>
 <rect class="l0" x="633" y="145" width="11" height="11" rx="2"/>
 <rect class="l0" x="633" y="160" width="11" height="11" rx="2"/>
@@ -339,7 +339,7 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <rect class="l0" x="723" y="115" width="11" height="11" rx="2"/>
 <rect class="l1" x="723" y="130" width="11" height="11" rx="2"/>
 <rect class="l1" x="723" y="145" width="11" height="11" rx="2"/>
-<rect class="l3" x="723" y="160" width="11" height="11" rx="2"/>
+<rect class="l1" x="723" y="160" width="11" height="11" rx="2"/>
 <rect class="l1" x="738" y="70" width="11" height="11" rx="2"/>
 <rect class="l0" x="738" y="85" width="11" height="11" rx="2"/>
 <rect class="l0" x="738" y="100" width="11" height="11" rx="2"/>
@@ -347,8 +347,8 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <rect class="l1" x="738" y="130" width="11" height="11" rx="2"/>
 <rect class="l0" x="738" y="145" width="11" height="11" rx="2"/>
 <rect class="l1" x="738" y="160" width="11" height="11" rx="2"/>
-<rect class="l2" x="753" y="70" width="11" height="11" rx="2"/>
-<rect class="l4" x="753" y="85" width="11" height="11" rx="2"/>
+<rect class="l1" x="753" y="70" width="11" height="11" rx="2"/>
+<rect class="l1" x="753" y="85" width="11" height="11" rx="2"/>
 <rect class="l0" x="753" y="100" width="11" height="11" rx="2"/>
 <rect class="l0" x="753" y="115" width="11" height="11" rx="2"/>
 <rect class="l0" x="753" y="130" width="11" height="11" rx="2"/>
@@ -363,8 +363,8 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <rect class="l0" x="768" y="160" width="11" height="11" rx="2"/>
 <rect class="l0" x="783" y="70" width="11" height="11" rx="2"/>
 <rect class="l0" x="783" y="85" width="11" height="11" rx="2"/>
-<rect class="l2" x="783" y="100" width="11" height="11" rx="2"/>
-<rect class="l4" x="783" y="115" width="11" height="11" rx="2"/>
+<rect class="l1" x="783" y="100" width="11" height="11" rx="2"/>
+<rect class="l1" x="783" y="115" width="11" height="11" rx="2"/>
 <rect class="l0" x="783" y="130" width="11" height="11" rx="2"/>
 <rect class="l0" x="783" y="145" width="11" height="11" rx="2"/>
 <rect class="l0" x="783" y="160" width="11" height="11" rx="2"/>
@@ -377,24 +377,24 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <rect class="l0" x="798" y="160" width="11" height="11" rx="2"/>
 <rect class="l0" x="813" y="70" width="11" height="11" rx="2"/>
 <rect class="l0" x="813" y="85" width="11" height="11" rx="2"/>
-<rect class="l4" x="813" y="100" width="11" height="11" rx="2"/>
+<rect class="l1" x="813" y="100" width="11" height="11" rx="2"/>
 <rect class="l0" x="813" y="115" width="11" height="11" rx="2"/>
 <rect class="l1" x="813" y="130" width="11" height="11" rx="2"/>
 <rect class="l0" x="813" y="145" width="11" height="11" rx="2"/>
 <rect class="l0" x="813" y="160" width="11" height="11" rx="2"/>
-<rect class="l2" x="828" y="70" width="11" height="11" rx="2"/>
-<rect class="l3" x="828" y="85" width="11" height="11" rx="2"/>
-<rect class="l4" x="828" y="100" width="11" height="11" rx="2"/>
-<rect class="l2" x="828" y="115" width="11" height="11" rx="2"/>
-<rect class="l3" x="828" y="130" width="11" height="11" rx="2"/>
-<rect class="l4" x="828" y="145" width="11" height="11" rx="2"/>
-<rect class="l4" x="828" y="160" width="11" height="11" rx="2"/>
-<rect class="l2" x="843" y="70" width="11" height="11" rx="2"/>
-<rect class="l4" x="843" y="85" width="11" height="11" rx="2"/>
-<rect class="l4" x="843" y="100" width="11" height="11" rx="2"/>
-<rect class="l1" x="843" y="115" width="11" height="11" rx="2"/>
-<rect class="l0" x="843" y="130" width="11" height="11" rx="2"/>
+<rect class="l1" x="828" y="70" width="11" height="11" rx="2"/>
+<rect class="l1" x="828" y="85" width="11" height="11" rx="2"/>
+<rect class="l1" x="828" y="100" width="11" height="11" rx="2"/>
+<rect class="l1" x="828" y="115" width="11" height="11" rx="2"/>
+<rect class="l1" x="828" y="130" width="11" height="11" rx="2"/>
+<rect class="l2" x="828" y="145" width="11" height="11" rx="2"/>
+<rect class="l1" x="828" y="160" width="11" height="11" rx="2"/>
+<rect class="l1" x="843" y="70" width="11" height="11" rx="2"/>
+<rect class="l2" x="843" y="85" width="11" height="11" rx="2"/>
+<rect class="l2" x="843" y="100" width="11" height="11" rx="2"/>
+<rect class="l4" x="843" y="115" width="11" height="11" rx="2"/>
+<rect class="l3" x="843" y="130" width="11" height="11" rx="2"/>
 <rect class="l0" x="843" y="145" width="11" height="11" rx="2"/>
 <rect class="l0" x="843" y="160" width="11" height="11" rx="2"/>
-<text x="20" y="211" class="muted" font-size="10">updated 2026-08-26 • public GitHub contribution HTML • self-hosted SVG</text>
+<text x="20" y="211" class="muted" font-size="10">updated 2026-08-27 • public GitHub contribution HTML • self-hosted SVG</text>
 </svg>
