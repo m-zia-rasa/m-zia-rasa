@@ -1,42 +1,7 @@
 {
   "username": "m-zia-rasa",
-  "generated_at": "2026-08-29T09:01:54.420083+00:00",
+  "generated_at": "2026-08-30T08:18:09.586395+00:00",
   "days": [
-    {
-      "date": "2025-08-24",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-25",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-26",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-27",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-28",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-29",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-30",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-08-31",
       "count": 0,
@@ -1854,14 +1819,19 @@
     },
     {
       "date": "2026-08-29",
-      "count": 2,
+      "count": 17,
+      "level": 1
+    },
+    {
+      "date": "2026-08-30",
+      "count": 12,
       "level": 1
     }
   ],
   "stats": {
-    "total": 597,
-    "active_days": 30,
-    "current_streak": 1,
+    "total": 624,
+    "active_days": 31,
+    "current_streak": 2,
     "longest_streak": 12,
     "best_day": {
       "date": "2026-08-26",
