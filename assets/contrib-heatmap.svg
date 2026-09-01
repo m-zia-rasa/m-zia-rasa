@@ -8,7 +8,7 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <rect class="bg" x="1" y="1" width="918" height="228" rx="12"/>
 <rect class="border" x="1" y="1" width="918" height="228" rx="12"/>
 <text x="20" y="28" class="fg" font-size="13" font-weight="700">contributions://m-zia-rasa</text>
-<text x="20" y="47" class="muted" font-size="10">total 722 • active 32d • current streak 3d • longest 12d</text>
+<text x="20" y="47" class="muted" font-size="10">total 930 • active 33d • current streak 4d • longest 12d</text>
 <text x="63" y="62" class="muted" font-size="9">Aug</text>
 <text x="78" y="62" class="muted" font-size="9">Sep</text>
 <text x="138" y="62" class="muted" font-size="9">Oct</text>
@@ -385,16 +385,16 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <rect class="l1" x="828" y="70" width="11" height="11" rx="2"/>
 <rect class="l2" x="828" y="85" width="11" height="11" rx="2"/>
 <rect class="l2" x="828" y="100" width="11" height="11" rx="2"/>
-<rect class="l4" x="828" y="115" width="11" height="11" rx="2"/>
-<rect class="l4" x="828" y="130" width="11" height="11" rx="2"/>
+<rect class="l3" x="828" y="115" width="11" height="11" rx="2"/>
+<rect class="l3" x="828" y="130" width="11" height="11" rx="2"/>
 <rect class="l0" x="828" y="145" width="11" height="11" rx="2"/>
 <rect class="l1" x="828" y="160" width="11" height="11" rx="2"/>
 <rect class="l2" x="843" y="70" width="11" height="11" rx="2"/>
-<rect class="l2" x="843" y="85" width="11" height="11" rx="2"/>
-<rect class="l0" x="843" y="100" width="11" height="11" rx="2"/>
+<rect class="l4" x="843" y="85" width="11" height="11" rx="2"/>
+<rect class="l2" x="843" y="100" width="11" height="11" rx="2"/>
 <rect class="l0" x="843" y="115" width="11" height="11" rx="2"/>
 <rect class="l0" x="843" y="130" width="11" height="11" rx="2"/>
 <rect class="l0" x="843" y="145" width="11" height="11" rx="2"/>
 <rect class="l0" x="843" y="160" width="11" height="11" rx="2"/>
-<text x="20" y="211" class="muted" font-size="10">updated 2026-08-31 • public GitHub contribution HTML • self-hosted SVG</text>
+<text x="20" y="211" class="muted" font-size="10">updated 2026-09-01 • public GitHub contribution HTML • self-hosted SVG</text>
 </svg>
